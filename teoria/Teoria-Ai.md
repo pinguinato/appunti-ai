@@ -115,3 +115,42 @@ Conclusioni:
 Quindi un sistema che segue la logica sillogistica e comprende che la frutta è sana allora saprà anche che le mele sono sane.
 
 ### Tipi di conoscenza
+
+Per interagire con il mondo circostante i sistemi di AI usano 5 tipologie di conoscenza:
+
+- dichiarativa (fatti essenziali necessari al funzionamento dell'AI)
+- procedurale (regole e istruzioni necessarie all'AI per eseguire il compito)
+- metaconoscenza (informazioni che descrivono la conoscenza in uso)
+- euristica (scorciatoie utili dell'esperienza umana, che semplificano il funzionamento dell'AI)
+- strutturale (spiega come gli elementi si relazionano l'uno con l'altro)
+
+### Come rappresentare la conoscenza alla macchina
+
+Si può fare in 4 modalità:
+
+- logica
+- semantica
+- a frame
+- con regole di produzione
+
+### Esempio di conoscenza euristica (Algoritmi di Pathfinding)
+
+- Algoritmo A* usa un grafo **pesato** per intercettare la via più breve di un percorso attraverso le città su di una mappa.
+- Distanza di Manhattan (calcola un tragitto tenendo conto delle caselle orizzontali e verticali)
+
+### Gestire l'incertezza 
+
+L'Ai classica si basa sul fatto che gli enunciati logici siano veri oppure falsi. Non c'è spazio per l'incertezza. Però l'incertezza è una caratteristica della vita che si può incorporare nella AI tramite l'uso della probabilità. La probabilità esprime il fatto che un evento si verifichi attraveros un **valore numerico**. 
+
+- Teorema di Bayes:
+
+        P(A|B) = P(B|A) * P(A) / P(B)
+
+- P(B) -> probabilità dell'evento B -> frequenza con cui si verifica l'evento B, cioè frequenza del fumo
+- P(A) -> probabilità dell'evento A -> frequenza con cui si verificano incendi pericolosi
+- P(A|B) -> P di A condizionato B -> esempio: probabilità che un incendio prericoloso sia accompagnato da fumo
+
+La teoria della probabilità è il buon senso calcolato.
+
+
+
