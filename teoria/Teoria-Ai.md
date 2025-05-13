@@ -93,3 +93,25 @@ Il connesionismo è un approccio all'AI in cui si cerca di emulare il cervello u
 - **Dati Qualitativi**: dati non numerici, parole, immagini, suoni, sono a loro volta **nominali** (non organizzati) e **ordinali** (organizzati)
 - **Dati quantitativi**: dati numerici che possono essere analizzati statisticamente, sono a loro volta **discreti** e **continui**.
 - **BIG DATA**: raccolte dati troppo estese per essere analizzate da sfotware tradizionali. Dati che includono volumi enormi di informazione sule persone, i loro comportamenti e le loro interazioni. I big data si usano nell'AI per l'istruzione dei sistemi esperti, per l'apprendimento automatico, per le previsioni del tempo ecc...
+
+# Intelligenza Artificiale Classica (anni 50 - 90)
+
+Detto approccio logico o simbolico era il metodo classico di affrontare gli studi sull'intelligenza artificiale. Si basava sul ragionamento logico, mediante simboli e regole scritte da programmatori umani. L'AI classica ha avuto grande successo e ottenuto risultati notevoli tipo macchine in grado di giocare a scacchi, tenere conversazioni ecc...Oggi l'AI statistica ha soppiantato l'AI classica.
+
+### Logica sillogistica
+
+La logica è lo studio del ragionamento strutturato e delle regole che determinano ciò che rende valido un argomento. Nella pratica si parte da delle **premesse** o dichiarazioni su mondo, e si deducono delle conclusioni. I sistemi di Ai vengono programmati per seguire rigidamente questi regolamenti. 
+Esempio:
+
+        Le mele sono frutta, la frutta è sana allora le mele sono sane
+
+Premesse:
+- le mele sono frutta
+- la frutta è sana
+
+Conclusioni:
+- le mele sono sane
+
+Quindi un sistema che segue la logica sillogistica e comprende che la frutta è sana allora saprà anche che le mele sono sane.
+
+### Tipi di conoscenza
