@@ -152,5 +152,43 @@ L'Ai classica si basa sul fatto che gli enunciati logici siano veri oppure falsi
 
 La teoria della probabilità è il buon senso calcolato.
 
+### Catena di Markov
 
+Modello che descrive una sequenza di eventi possibili, in cui la probabilità di un evento dipende dallo stato raggiunto dall'evento precedente. Questo modello prevede i risultati basandosi sui calcoli del teorema di Bayes e usando i dati raccolto sull'argomento rilevante. Una volta istruito basta conoscere l'immediato passato per disporre delle informazioni rilevanti. Le catene di Markov si usano per:
+- previsioni meteo
+- mercato finanziario
+- sistemi di scrittura predittiva
+
+### Modello Deterministico
+
+Non ci sono variabili casuali, i risutalti sono collegati in maniera prevedibile.
+
+### Modello Stocastico
+
+Include varibili casuali, risultati moto meno prevedibili.
+
+### Sistema Esperto
+
+Un programma informatico che riproduce conoscenza e il ragionamento dei professionisti di un determinato settore. Le informazioni vengono fornite dal personale competente, mentre la programmazione è affidata ad un ingengnere della conoscenza, oggi si compone di 3 sezioni:
+- Una base di conoscenza (raccolta organizzata di fatti su un preciso ambito, esempio la medicina...)
+- Un motore di inferenza (applica regole alla base di conoscenza, associa una domanda dell'utente a possibili risposte)
+- Utente (colui che pone le domande e riceve le risposte dall'interfaccia)
+
+**Importante** 
+
+L'intelligenza non è la capacità di immagazzinare informazioni, ma di poterle trovare!
+
+### Gestire dati caotici
+
+**Importante**: l'IA classica ha difficoltà nella gestione di compit che per un essere umano sono semplici. Si possono programmare computer per giocare a scacchi, ma non per la percezione o per attività sensoriali-motorie. Queste ultime si servono di dati non strutturati e disordinati, a differenza delle regole per giocare a scacchi, che invece sono mosse molto precise e definite. Per l'uomo le attività sensoriali-motorie sono movimenti inconsapevoli perfezionati dopo anni di evoluzione, che risultano molto difficili da scomporre in sequenze passo passo.
+
+Esempio:
+
+        Manipolare un oggetto è facile per una persona, difficilissimo per una IA.
+
+Anni 70:
+- IA Neat: precisa e prevedibile (reti neurali) è l'approccio dominante oggi
+- IA Scruffy: meno previdibile, mero rispetto delle regole, che però soltanto questo approccio porterà ad essere veramente umani.
+
+# Intelligenza Artificiale Statistica
 
